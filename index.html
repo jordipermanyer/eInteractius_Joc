@@ -10,68 +10,108 @@
 </head>
 
 <body>
-    <h1>Aquí hi ha les instruccions de com instalar la Kinect</h1>
-    <br>
-    <p>Recordatori: <b>nomes funciona per Windows 7 o superior</b></p>
-    <p>Recordatori: <b>cal tenir una versió de Java actualitzada</b></p>
-    <br>
-    <h2>Instalar la llibreria</h2>
-    <ul>
-        <li>
-            <p>Obrir Processing</p>
-        </li>
-        <li>
-            <ol>
+    <header>
+        <h1>TIC TAC TOE KINECT</h1>
+        <p>Aquesta és una pàgina web explicativa de com descarregar el Tic Tac Toe Kinect i del que hi ha al repositori</p>
+        <br>
+    </header>
+    <hr>
+    <menu>
+        <h2>Recordatori</h2>
+        <ul>
+            <li>
+                <p><b>Només funciona per Windows 7 o superior</b></p>
+            </li>
+            <li>
+                <p><b>Cal tenir una versió de Java actualitzada</b></p>
+            </li>
+        </ul>
+    </menu>
+    <hr>
+    <main>
+        <h2>Tutorial de la Kinect</h2>
+        <article>
+            <h3>Instalar la llibreria</h3>
+            <ul>
                 <li>
-                    <p>Anar a Sketch</p>
+                    <p>Obrir Processing</p>
                 </li>
                 <li>
-                    <p>Import Library</p>
+                    <ol>
+                        <li>
+                            <p>Anar a Sketch</p>
+                        </li>
+                        <li>
+                            <p>Import Library</p>
+                        </li>
+                        <li>
+                            <p>Manage libraries...</p>
+                        </li>
+                        <li>
+                            <p>Buscar "kinect"</p>
+                        </li>
+                        <li>
+                            <p>Instalar la: "SimpleOpenNI"</p>
+                        </li>
+                    </ol>
                 </li>
                 <li>
-                    <p>Manage libraries...</p>
+                    <p>Clicar Install</p>
                 </li>
                 <li>
-                    <p>Buscar "kinect"</p>
+                    <p>Reiniciar Processing</p>
+                </li>
+            </ul>
+        </article>
+
+        <p>Un cop instalada la llibreria faltarà el component per Windows de la Kinect</p>
+        <br>
+        <article>
+            <h3>Instalar el component de la Kinect</h3>
+            <ul>
+                <li>
+                    <p>Entrar al link: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=40278">Component kinect</a></p>
                 </li>
                 <li>
-                    <p>Instalar la: "SimpleOpenNI"</p>
+                    <p>Descarregar-ho</p>
                 </li>
-            </ol>
-        </li>
-        <li>
-            <p>Clicar Install</p>
-        </li>
-        <li>
-            <p>Reiniciar Processing</p>
-        </li>
-    </ul>
-    <p>Un cop instalada la llibreria faltarà el component per Windows de la Kinect</p>
-    <br>
-    <h2>Instalar el component de la Kinect</h2>
-    <ul>
-        <li>
-            <p>Entrar al link: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=40278">Component kinect</a></p>
-        </li>
-        <li>
-            <p>Descarregar-ho</p>
-        </li>
-        <li>
-            <p>Instalar-ho</p>
-        </li>
-    </ul>
-    <br>
-    <h2>Codi de la Kinect</h2>
-    <p>Un cop instalada la llibreria i el component, descarregar el codi penjat al repositori Github</p>
-    <p><b>Important! NO està acabat, falta millorar-ho.</b></p>
-    <p><b>Important! Provar-lo per separat abans d'ajuntar-lo amb el codi anterior.</b></p>
-    <p>Per descarregar-ho s'ha de:</p>
-    <ul>
-        <li>Entrar al link del repositori <a href="https://github.com/jordipermanyer/eInteractius_Joc/">Link repositori</a></li>
-        <li>Entrar a "Code"</li>
-        <li>Descarregar el zip "Detectar obj 4"</li>
-        <li>Enganxar-lo en un arxiu nou de Processing</li>
-    </ul>
+                <li>
+                    <p>Instalar-ho</p>
+                </li>
+            </ul>
+        </article>
+
+        <br>
+        <article>
+            <h3>Codi de la Kinect</h3>
+            <p>Un cop instalada la llibreria i el component, descarregar el codi penjat al repositori Github</p>
+            <hr>
+            <h2>A dins del repositori hi ha varis fitxers</h2>
+            <ul>
+                <li>Fitxer <b>TicTacToeFinalGame</b> que es el fitxer amb el joc final; amb la Kinect implementada</li>
+                <li>Fitxer <b>DepthImage2</b> que es l'exemple de Depth Image que ve per defecte quan instales la llibreria Kinect</li>
+                <li>Fitxer <b>Threshold_Value</b> que es l'exemple de Threshold que ve per defecte quan instales la llibreria Kinect</li>
+                <li>Fitxer <b>DetectarObj4</b> que es un fitxer amb els dos exemples ajuntats, el que fa es detectar objectes</li>
+                <li>Fitxer <b>DetectarObj4_</b> és la versió millorada del DetectarObj4</li>
+            </ul>
+        </article>
+        <br>
+        <article>
+            <p>Per descarregar-ho s'ha de:</p>
+            <ul>
+                <li>Entrar al link del repositori <a href="https://github.com/jordipermanyer/eInteractius_Joc/">Link repositori</a></li>
+                <li>Entrar a "Code"</li>
+                <li>Descarregar el zip</li>
+                <li>Enganxar-lo en un arxiu nou de Processing</li>
+            </ul>
+        </article>
+        <br>
+    </main>
+    <hr>
+
+    <footer>
+        Aquesta practica té el copyright de la UVic-UCC
+    </footer>
 </body>
 
 </html>
